@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--声明样式  declare-styleable: 样式的容器-->
+    <declare-styleable name="inputView">
+        <!--format: 表示name为input_icon的样式 接受内容的类型 reference:表示图片资源文件-->
+        <attr name="input_icon" format="reference"></attr>
+        <attr name="input_hint" format="string"></attr>
+        <attr name="is_password" format="boolean"></attr>
+    </declare-styleable>
+</resources>

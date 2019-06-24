@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!--<style name="AppTheme" parent="android:style/Theme.Black.NoTitleBar.Fullscreen">-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--定义全局过度动画-->
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <!--<item name="android:windowBackground">@android:color/white</item>-->
+    </style>
+    <!--定义全局过度动画的属性-->
+    <!--<style name="AnimationActivity" parent="@android:style/Animation.Activity">-->
+        <!--&lt;!&ndash;打开Activity时，新进入的activity 的动画&ndash;&gt;-->
+        <!--<item name="android:activityOpenEnterAnimation">@anim/open_enter</item>-->
+        <!--&lt;!&ndash;打开Activity时，原activity 的动画&ndash;&gt;-->
+        <!--<item name="android:activityOpenExitAnimation">@anim/open_exit</item>-->
+        <!--&lt;!&ndash;退出Activity时，退出的activity 的动画&ndash;&gt;-->
+        <!--<item name="android:activityCloseExitAnimation">@anim/close_enter</item>-->
+        <!--&lt;!&ndash;退出Activity时，重新显示的activity 的动画&ndash;&gt;-->
+        <!--<item name="android:activityCloseEnterAnimation">@anim/close_exit</item>-->
+
+    <!--</style>-->
+</resources>
